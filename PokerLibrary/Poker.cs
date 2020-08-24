@@ -20,6 +20,11 @@ namespace PokerLibrary
             return _pokergames.ToArray();
         }
 
+        public static void RemoveAt(int index)
+        {
+            _pokergames.RemoveAt(index);
+        }
+
 
     }
 

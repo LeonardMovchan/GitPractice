@@ -57,6 +57,15 @@ namespace GitPractice
                         break;
                     case Menu.RemoveGames:
                         {
+                            Console.Write("Please enter the index of the game you would like to remove: ");
+                            int index = int.Parse(Console.ReadLine());
+
+                            PokerKeeper.RemoveAt(index);
+
+                            Console.WriteLine($"The game on index {index} was removed from the list");
+
+                            
+
 
                         }
                         break;
