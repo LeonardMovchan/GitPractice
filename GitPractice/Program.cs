@@ -46,11 +46,11 @@ namespace GitPractice
                     case Menu.CheckGames:
                         {
                             Console.Clear();
-                            foreach (var games in PokerKeeper.GetGames()) 
+                            foreach (var games in PokerKeeper.GetGames())
                             {
                                 Console.WriteLine($"=============\n {games}");
                             }
-                            
+
 
                             Console.ReadLine();
                         }
@@ -64,7 +64,7 @@ namespace GitPractice
 
                             Console.WriteLine($"The game on index {index} was removed from the list");
 
-                            
+
 
 
                         }
@@ -90,6 +90,15 @@ namespace GitPractice
             CheckGames = 2,
             RemoveGames = 3,
             Exit = 4
+        }
+
+        public static void InputValidation()
+        {
+            int result;
+            while (!int.TryParse(Console.ReadLine(), out result) || result > 0)
+            {
+                Console.WriteLine("Please enter a valid positive number!");
+            }
         }
     }
 }
