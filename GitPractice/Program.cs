@@ -91,5 +91,21 @@ namespace GitPractice
             RemoveGames = 3,
             Exit = 4
         }
+
+        public static void IndexInputValidation()
+        {
+            int result;
+            string q = "";
+            while (!int.TryParse(Console.ReadLine(), out result) || result > 0)
+            {
+                Console.WriteLine("Please enter a valid index");
+            }
+
+            if (result < PokerKeeper.GetGames().Length)
+            {
+                Console.WriteLine("Unfortunately there is no such index");
+            }
+            else return;
+        }
     }
 }
