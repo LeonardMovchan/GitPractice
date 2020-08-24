@@ -1,0 +1,6 @@
+C:\Users\lepri\Desktop\GitPractice\PokerLibrary\bin\Debug\PokerLibrary.dll
+C:\Users\lepri\Desktop\GitPractice\PokerLibrary\bin\Debug\PokerLibrary.pdb
+C:\Users\lepri\Desktop\GitPractice\PokerLibrary\obj\Debug\PokerLibrary.csprojAssemblyReference.cache
+C:\Users\lepri\Desktop\GitPractice\PokerLibrary\obj\Debug\PokerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\lepri\Desktop\GitPractice\PokerLibrary\obj\Debug\PokerLibrary.dll
+C:\Users\lepri\Desktop\GitPractice\PokerLibrary\obj\Debug\PokerLibrary.pdb

@@ -1,0 +1,10 @@
+C:\Users\lepri\Desktop\GitPractice\GitPractice\bin\Debug\GitPractice.exe.config
+C:\Users\lepri\Desktop\GitPractice\GitPractice\bin\Debug\GitPractice.exe
+C:\Users\lepri\Desktop\GitPractice\GitPractice\bin\Debug\GitPractice.pdb
+C:\Users\lepri\Desktop\GitPractice\GitPractice\bin\Debug\PokerLibrary.dll
+C:\Users\lepri\Desktop\GitPractice\GitPractice\bin\Debug\PokerLibrary.pdb
+C:\Users\lepri\Desktop\GitPractice\GitPractice\obj\Debug\GitPractice.csprojAssemblyReference.cache
+C:\Users\lepri\Desktop\GitPractice\GitPractice\obj\Debug\GitPractice.csproj.CoreCompileInputs.cache
+C:\Users\lepri\Desktop\GitPractice\GitPractice\obj\Debug\GitPractice.csproj.CopyComplete
+C:\Users\lepri\Desktop\GitPractice\GitPractice\obj\Debug\GitPractice.exe
+C:\Users\lepri\Desktop\GitPractice\GitPractice\obj\Debug\GitPractice.pdb
