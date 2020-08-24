@@ -25,7 +25,7 @@ namespace PokerLibrary
 
     public class Poker
     {
-        private Poker(string discipline, int numberOfCards, int numberOfPlayers, string type)
+        public Poker(string discipline, int numberOfCards, int numberOfPlayers, string type)
         {
             this.Discipline = discipline;
             this.NumberOfCards = numberOfCards;
