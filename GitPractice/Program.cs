@@ -46,11 +46,11 @@ namespace GitPractice
                     case Menu.CheckGames:
                         {
                             Console.Clear();
-                            foreach (var games in PokerKeeper.GetGames()) 
+                            foreach (var games in PokerKeeper.GetGames())
                             {
                                 Console.WriteLine($"=============\n {games}");
                             }
-                            
+
 
                             Console.ReadLine();
                         }
@@ -64,7 +64,7 @@ namespace GitPractice
 
                             Console.WriteLine($"The game on index {index} was removed from the list");
 
-                            
+
 
 
                         }
@@ -92,6 +92,7 @@ namespace GitPractice
             Exit = 4
         }
 
+<<<<<<< HEAD
         public static void IndexInputValidation()
         {
             int result;
@@ -106,6 +107,15 @@ namespace GitPractice
                 Console.WriteLine("Unfortunately there is no such index");
             }
             else return;
+=======
+        public static void InputValidation()
+        {
+            int result;
+            while (!int.TryParse(Console.ReadLine(), out result) || result > 0)
+            {
+                Console.WriteLine("Please enter a valid positive number!");
+            }
+>>>>>>> development
         }
     }
 }
