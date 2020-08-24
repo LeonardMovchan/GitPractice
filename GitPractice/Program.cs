@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-
+using PokerLibrary;
 namespace GitPractice
 {
     class Program
@@ -25,7 +25,21 @@ namespace GitPractice
                 {
                     case Menu.AddNewGame:
                         {
+                            Console.Write("Please enter the name of the discipline");
+                            string name = Console.ReadLine();
 
+                            Console.Write("Please enter the number of cards in  the game: ");
+                            int cards = int.Parse(Console.ReadLine());
+
+                            Console.Write("Please enter the number of players in  the game: ");
+                            int players = int.Parse(Console.ReadLine());
+
+                            Console.Write("Please enter the type of the game");
+                            string type = Console.ReadLine();
+
+                            Poker game = new Poker(discipline: name, numberOfCards: cards, numberOfPlayers: players, type: type);
+
+                            PokerKeeper.Add(game);
                         }
                         break;
                     case Menu.CheckGames:
