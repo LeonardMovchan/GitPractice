@@ -13,8 +13,7 @@ namespace GitPractice
         static void Main(string[] args)
         {
             do
-            {
-                Console.WriteLine("I want to remove it");
+            {               
                 Console.WriteLine("This is A Menu");
                 Console.WriteLine("1. Add new game");
                 Console.WriteLine("2. Check all avaialble games ");
@@ -66,9 +65,6 @@ namespace GitPractice
                             PokerKeeper.RemoveAt(index);
 
                             Console.WriteLine($"The game on index {index} was removed from the list");
-
-
-
 
                         }
                         break;
