@@ -92,7 +92,7 @@ namespace GitPractice
             Exit = 4
         }
 
-<<<<<<< HEAD
+
         public static void IndexInputValidation()
         {
             int result;
@@ -107,7 +107,7 @@ namespace GitPractice
                 Console.WriteLine("Unfortunately there is no such index");
             }
             else return;
-=======
+        }
         public static void InputValidation()
         {
             int result;
@@ -115,7 +115,7 @@ namespace GitPractice
             {
                 Console.WriteLine("Please enter a valid positive number!");
             }
->>>>>>> development
+
         }
     }
 }
