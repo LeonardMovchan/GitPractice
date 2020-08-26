@@ -14,6 +14,7 @@ namespace GitPractice
         {
             do
             {
+                Console.WriteLine("I want to remove it");
                 Console.WriteLine("This is A Menu");
                 Console.WriteLine("1. Add new game");
                 Console.WriteLine("2. Check all avaialble games ");
@@ -79,6 +80,8 @@ namespace GitPractice
                             Console.WriteLine("There is no such index");
                         }
                         break;
+
+                        
                 }
             } while (true);
         }
