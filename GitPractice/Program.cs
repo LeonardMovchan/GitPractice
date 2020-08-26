@@ -31,10 +31,12 @@ namespace GitPractice
                             string name = Console.ReadLine();
 
                             Console.Write("Please enter the number of cards in  the game: ");
-                            int cards = int.Parse(Console.ReadLine());
+
+                            int cards = Valdiation.InputValidation();
+
 
                             Console.Write("Please enter the number of players in  the game: ");
-                            int players = int.Parse(Console.ReadLine());
+                            int players = Valdiation.InputValidation();
 
                             Console.Write("Please enter the type of the game: ");
                             string type = Console.ReadLine();
@@ -72,16 +74,17 @@ namespace GitPractice
                         break;
                     case Menu.Exit:
                         {
-
+                            
                         }
                         break;
+
                     default:
                         {
                             Console.WriteLine("There is no such index");
                         }
                         break;
 
-                        
+
                 }
             } while (true);
         }
@@ -96,29 +99,6 @@ namespace GitPractice
         }
 
 
-        public static void IndexInputValidation()
-        {
-            int result;
-            string q = "";
-            while (!int.TryParse(Console.ReadLine(), out result) || result > 0)
-            {
-                Console.WriteLine("Please enter a valid index");
-            }
 
-            if (result < PokerKeeper.GetGames().Length)
-            {
-                Console.WriteLine("Unfortunately there is no such index");
-            }
-            else return;
-        }
-        public static void InputValidation()
-        {
-            int result;
-            while (!int.TryParse(Console.ReadLine(), out result) || result > 0)
-            {
-                Console.WriteLine("Please enter a valid positive number!");
-            }
-
-        }
     }
 }
